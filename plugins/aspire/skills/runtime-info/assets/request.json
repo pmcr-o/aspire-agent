@@ -1,0 +1,7 @@
+{
+  "registered": true,
+  "agent": "aspire-runtime-agent",
+  "plugin": "aspire",
+  "description": "Inspect the installed Aspire CLI, version, and bounded workspace AppHost indicators without mutation.",
+  "skill": "runtime-info"
+}

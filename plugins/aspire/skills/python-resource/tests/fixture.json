@@ -1,0 +1,6 @@
+{
+  "kind": "app",
+  "name": "python-api",
+  "appDir": "../python-app",
+  "entry": "main.py"
+}
