@@ -1,0 +1,7 @@
+{
+  "registered": true,
+  "agent": "aspire-python-agent",
+  "plugin": "aspire",
+  "description": "Generate a bounded Aspire.Hosting.Python resource integration plan for an existing Python app without silently installing packages.",
+  "skill": "python-resource"
+}

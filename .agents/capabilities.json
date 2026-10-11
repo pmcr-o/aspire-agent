@@ -1,0 +1,26 @@
+{
+  "schema": "pmcro.capabilities/v1",
+  "agent": "aspire-agent",
+  "executionRule": "registered AND runtime-present AND authorized",
+  "manualParity": {
+    "required": true,
+    "rule": "agent and manual terminal use the same scripts with the same arguments, exit codes, and evidence"
+  },
+  "capabilities": [
+    {
+      "plugin": "aspire",
+      "skill": "agent-mcp",
+      "route": "@aspire-agent /aspire:agent-mcp"
+    },
+    {
+      "plugin": "aspire",
+      "skill": "python-resource",
+      "route": "@aspire-agent /aspire:python-resource"
+    },
+    {
+      "plugin": "aspire",
+      "skill": "runtime-info",
+      "route": "@aspire-agent /aspire:runtime-info"
+    }
+  ]
+}

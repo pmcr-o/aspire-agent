@@ -1,0 +1,8 @@
+{
+  "name": "aspire",
+  "version": "0.1.0",
+  "description": "aspire PMCR-O domain capabilities",
+  "skills": [
+    "./skills/"
+  ]
+}

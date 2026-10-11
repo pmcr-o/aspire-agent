@@ -1,0 +1,16 @@
+{
+  "schema": "dotagents.manifest/v1",
+  "name": "aspire-agent",
+  "owner": "pmcr-o",
+  "description": "Aspire domain orchestrator for AppHost/runtime inspection, agent MCP, and Python resource integration planning.",
+  "invocationField": "plugin",
+  "plugins": [
+    {
+      "name": "aspire",
+      "source": "./.pmcro/plugins/aspire",
+      "description": "aspire capabilities owned by aspire-agent"
+    }
+  ],
+  "canonical": ".pmcro",
+  "projection": ".agents"
+}

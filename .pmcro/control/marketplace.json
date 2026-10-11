@@ -1,0 +1,16 @@
+{
+  "name": "aspire-agent",
+  "owner": {
+    "name": "pmcr-o"
+  },
+  "metadata": {
+    "description": "Aspire domain orchestrator for AppHost/runtime inspection, agent MCP, and Python resource integration planning."
+  },
+  "plugins": [
+    {
+      "name": "aspire",
+      "source": "./.pmcro/plugins/aspire",
+      "description": "aspire capabilities owned by aspire-agent"
+    }
+  ]
+}

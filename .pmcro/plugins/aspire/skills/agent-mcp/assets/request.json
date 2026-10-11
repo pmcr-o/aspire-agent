@@ -1,0 +1,7 @@
+{
+  "registered": true,
+  "agent": "aspire-mcp-agent",
+  "plugin": "aspire",
+  "description": "Plan or explicitly launch the Aspire agent MCP server with caller-supplied dashboard settings. Dry-run by default; never discovers credentials.",
+  "skill": "agent-mcp"
+}

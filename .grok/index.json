@@ -1,0 +1,28 @@
+{
+  "apiVersion": "pmcro.dev/v1",
+  "kind": "agent.index",
+  "agent": "aspire-agent",
+  "entries": [
+    {
+      "route": "@aspire-agent /aspire:agent-mcp",
+      "plugin": "aspire",
+      "skill": "agent-mcp",
+      "description": "Plan or explicitly launch the Aspire agent MCP server. Dry-run by default; no credential discovery.",
+      "path": ".pmcro/plugins/aspire/skills/agent-mcp"
+    },
+    {
+      "route": "@aspire-agent /aspire:python-resource",
+      "plugin": "aspire",
+      "skill": "python-resource",
+      "description": "Generate an Aspire.Hosting.Python integration plan for an existing Python app without installing packages.",
+      "path": ".pmcro/plugins/aspire/skills/python-resource"
+    },
+    {
+      "route": "@aspire-agent /aspire:runtime-info",
+      "plugin": "aspire",
+      "skill": "runtime-info",
+      "description": "Inspect the installed Aspire CLI, version, and bounded workspace AppHost indicators without mutation.",
+      "path": ".pmcro/plugins/aspire/skills/runtime-info"
+    }
+  ]
+}
